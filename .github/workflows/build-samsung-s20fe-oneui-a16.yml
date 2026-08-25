@@ -131,9 +131,6 @@ jobs:
       - name: 🔒 Patch Kernel of Baseband Guard
         uses: ./.github/workflows/patch-baseband-guard
 
-      - name: 🪝 Patch Kernel of NoMount
-        uses: ./.github/workflows/patch-nomount
-
       - name: 🚀 Build Process
         uses: ./.github/workflows/build-process
 
